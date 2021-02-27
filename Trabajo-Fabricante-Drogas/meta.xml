@@ -1,0 +1,23 @@
+<meta>
+<info author="NicolasEcm" name="Trabajo Fabricante de drogas" version="1.0" type="script" />
+	<script src="Cliente/client.lua" type="client"/>
+	<script src="Cliente/CargarDatos.lua" type="client"/>
+	<script src="Cliente/TextosMark.lua" type="client"/>
+	<script src="Paneles/MejorasPlantaciones.lua" type="client"/>
+	<script src="Paneles/Plantaciones.lua" type="client"/>
+	<script src="Paneles/MejorasFabrica.lua" type="client"/>
+	<script src="Paneles/Ayuda.lua" type="client"/>
+	<script src="Paneles/Drogas.lua" type="client"/>
+	<script src="Paneles/Fabrica.lua" type="client"/>
+	<script src="Paneles/VentaGasolina.lua" type="client"/>
+	<script src="Paneles/VentaQuimicoA.lua" type="client"/>
+	<script src="Paneles/VentaQuimicoB.lua" type="client"/>
+	<script src="Paneles/VentaSemillas.lua" type="client"/>
+	<script src="Server/server.lua" type="server"/>
+	<script src="Server/seguridadDatos.lua" type="server"/>
+	<map src="Mapas/Granja.map" dimension="-1"></map>
+	<map src="Mapas/Fabrica.map" dimension="-1"></map>
+	<config src="config.xml" type="client"/>
+	<file src="Imagenes/Mapa.png" />
+	<include resource="trabajos" /> 
+</meta>
