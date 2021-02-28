@@ -855,23 +855,3 @@ local devolMarkM = createMarker (Pmx, Pmy, Pmz, "cylinder",1.2, 227, 13, 13, 0 )
 setElementDimension(devolMarkM,dimJugObj)
 return devolMarkM
 end
-
-function verData()
-d = getElementData(localPlayer,"materialD")
-a = getElementData(localPlayer,"galonGaso")
-b = getElementData(localPlayer,"quimicoA")
-c = getElementData(localPlayer,"quimicoB")
-outputChatBox(d)
-outputChatBox(b)
-outputChatBox(c)
-outputChatBox(a)
-end
-addCommandHandler("k", verData)
-
-function cambiar()
-setElementData(localPlayer,"materialD",50)
-setElementData(localPlayer,"galonGaso",50)
-setElementData(localPlayer,"quimicoA",50)
-setElementData(localPlayer,"quimicoB",50)
-end
-addCommandHandler("l", cambiar)

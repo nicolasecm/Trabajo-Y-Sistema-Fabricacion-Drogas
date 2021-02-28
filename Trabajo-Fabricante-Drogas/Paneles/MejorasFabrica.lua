@@ -476,23 +476,6 @@ function PanelMejorasFabrica()
 	addEventHandler("onClientGUIClick", botonComprarMF, salir4, false)
 end
 
-function verCamaraAca()
---setElementData  (localPlayer, "Mejoffabobjetotres", 0)
---setElementData  (localPlayer, "Mejoffabobjetocuat", 0)
-as = getElementData (localPlayer, "cantMejorMaq1")
---setElementData  (localPlayer, "Mejoffabobjetouno", 0)
-outputChatBox(" ".. as, 227, 13, 13,true)
-end
-
-addCommandHandler("fa",verCamaraAca)
-
-function verCamara()
-local x, y, z, lx, ly, lz = getCameraMatrix()
-outputChatBox(" " .. x .. "," .. y .. "," .. z .. "," .. lx .. "," .. ly .. "," .. lz, 227, 13, 13,true)
-end
-
-addCommandHandler("cam",verCamara)
-
 function salir4()
 	showCursor(false)
 	destroyElement(window4)
